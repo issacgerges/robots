@@ -1,0 +1,9 @@
+/* styles.css */
+
+#output {
+    min-width: calc(100% - 10px);
+    min-height: 150px;
+    background-color: rgb(156, 156, 156);
+    margin: 5px 0 ;
+    padding: 5px;
+}

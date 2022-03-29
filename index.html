@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <input id="test" />
+    <button id="do-it">Start the test</button>
+    <button id="stop">Stop</button>
+
+    <button id="copy">Copy results to Clipboard</button>
+    <div id="output"></div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
